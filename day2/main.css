@@ -1,0 +1,46 @@
+.box {
+  padding: 8% 10%;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  width: 33%;
+  left: 22%;
+  top: 15%;
+  position: fixed;
+  z-index: 1;
+  animation: 1s fadeIn;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 30%;
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+#entrant-name {
+  animation: 2s fadeIn2;
+  animation-delay: 2s;
+  position: fixed;
+  z-index: 2;
+  top: 45.1%;
+  left:35%;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    top: 100%;
+  }
+  100% {
+    opacity: 1
+  }
+}
